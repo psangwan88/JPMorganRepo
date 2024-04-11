@@ -30,5 +30,8 @@ Enum for supported browsers is created but not used
 TestContextLib is used to keep all details separate for parallel runs as well as carrying data between steps
 Base class for now have common methods only, we can use either hooks or base class , here we have both if needed one can be removed
 
-
+Execution :
+Execution can be done via command line as well as from IDEs
+From command line we can execute using mvn commands also we can set the number of threads which we want to run in parallel, currently its set to 3
+From ide we can run testrunner class, or we can run from features file as well ( provided plugins are installed)
 
